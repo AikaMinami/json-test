@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebView Console Log Test</title>
+  <style>
+    body {
+      font-family: monospace;
+      padding: 16px;
+      background: #1e1e1e;
+      color: #e0e0e0;
+    }
+    h1 {
+      font-size: 1.2rem;
+      color: #4fc3f7;
+    }
+    button {
+      padding: 8px 16px;
+      margin: 6px 4px 6px 0;
+      background: #0288d1;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:active {
+      background: #0277bd;
+    }
+    #onScreenLogs {
+      margin-top: 14px;
+      padding: 10px;
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 4px;
+      max-height: 250px;
+      overflow-y: auto;
+      font-size: 0.85rem;
+      white-space: pre-wrap;
+    }
+    .tag {
+      color: #81c784;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>WebView Console Listener Diagnostic</h1>
+  <p>Tests whether console messages triggered at different lifecycles reach the native listener.</p>
+
+  <div>
+    <button onclick="triggerManualLog()">Trigger Manual Log</button>
+    <button onclick="clearScreenLogs()">Clear Screen</button>
+  </div>
+
+  <div id="onScreenLogs"><strong>Visible On-Screen Log Output:</strong><br/></div>
+
+  <script>
+    // Helper to mirror console output onto the page visually
+    function writeToScreen(type, msg) {
+      const logBox = document.getElementById('onScreenLogs');
+      if (logBox) {
+        const time = new Date().toISOString().split('T')[1].slice(0, 8);
+        logBox.innerHTML += `[${time}] [${type.toUpperCase()}] ${msg}\n`;
+      }
+    }
+
+    // Wrap standard console methods so we can mirror them onto the screen
+    const originalLog = console.log;
+    const originalWarn = console.warn;
+    const originalError = console.error;
+
+    console.log = function(...args) {
+      originalLog.apply(console, args);
+      writeToScreen('log', args.join(' '));
+    };
+
+    console.warn = function(...args) {
+      originalWarn.apply(console, args);
+      writeToScreen('warn', args.join(' '));
+    };
+
+    console.error = function(...args) {
+      originalError.apply(console, args);
+      writeToScreen('error', args.join(' '));
+    };
+
+    // 1. Immediate Execution (Fires during initial script evaluation)
+    console.log("[TEST 1: Immediate] Script parsed naturally by page.");
+
+    // 2. DOM Ready Hook
+    document.addEventListener("DOMContentLoaded", function () {
+      console.log("[TEST 2: DOMContentLoaded] Document structure ready.");
+    });
+
+    // 3. Window Loaded Hook
+    window.addEventListener("load", function () {
+      console.log("[TEST 3: window.load] All assets finished loading.");
+    });
+
+    // 4. Delayed Execution (Testing async event loop)
+    setTimeout(function () {
+      console.log("[TEST 4: setTimeout 2s] 2-second timer resolved naturally.");
+    }, 2000);
+
+    setTimeout(function () {
+      console.warn("[TEST 5: setTimeout 4s] Warning-level log test.");
+    }, 4000);
+
+    // 5. User Interaction Handler
+    function triggerManualLog() {
+      console.log("[TEST 6: Click] Button clicked on webpage.");
+    }
+
+    // 6. Pre-declared page function for EvaluateJS testing
+    // Call this via EvaluateJS: testFromEvaluateJS("Hello from Unity/Unreal!")
+    window.testFromEvaluateJS = function(param) {
+      console.log("[TEST 7: Pre-declared fn via EvaluateJS] Parameter received:", param);
+      return "Executed successfully!";
+    };
+
+    function clearScreenLogs() {
+      document.getElementById('onScreenLogs').innerHTML = "<strong>Visible On-Screen Log Output:</strong><br/>";
+    }
+  </script>
+</body>
+</html>
