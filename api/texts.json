@@ -1,0 +1,26 @@
+{
+  "version": "0.0.2",
+  "texts": [
+    {
+      "id": "title_1",
+      "text_list": [
+        { "lang": "en", "text_displayed": "Welcome 2" },
+        { "lang": "id", "text_displayed": "Selamat datang 2" }
+      ]
+    },
+    {
+      "id": "start_button",
+      "text_list": [
+        { "lang": "en", "text_displayed": "Start 2" },
+        { "lang": "id", "text_displayed": "Mulai 2" }
+      ]
+    },
+    {
+      "id": "quit_button",
+      "text_list": [
+        { "lang": "en", "text_displayed": "Quit" },
+        { "lang": "id", "text_displayed": "Keluar" }
+      ]
+    }
+  ]
+}
