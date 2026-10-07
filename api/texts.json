@@ -1,26 +1,57 @@
 {
-  "version": "0.0.4",
-  "texts": [
-    {
-      "id": "title_1",
-      "text_list": [
-        { "lang": "en", "text_displayed": "Welcome 4" },
-        { "lang": "id", "text_displayed": "Selamat datang 4" }
-      ]
-    },
-    {
-      "id": "start_button",
-      "text_list": [
-        { "lang": "en", "text_displayed": "Start 4" },
-        { "lang": "id", "text_displayed": "Mulai 4" }
-      ]
-    },
-    {
-      "id": "quit_button",
-      "text_list": [
-        { "lang": "en", "text_displayed": "Quit 4" },
-        { "lang": "id", "text_displayed": "Keluar 4" }
-      ]
-    }
-  ]
+    "version": "0.0.5",
+    "texts": [
+        {
+            "id": "title_1",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Welcome 5"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Selamat datang 5"
+                }
+            ]
+        },
+        {
+            "id": "start_button",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Start 5"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Mulai 5"
+                }
+            ]
+        },
+        {
+            "id": "quit_button",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Quit 5"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Keluar 5"
+                }
+            ]
+        },
+        {
+            "id": "menu.greeting",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Hello {name}!"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Halo {name}!"
+                }
+            ]
+        }
+    ]
 }
