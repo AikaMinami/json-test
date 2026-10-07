@@ -1,25 +1,25 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "texts": [
     {
       "id": "title_1",
       "text_list": [
-        { "lang": "en", "text_displayed": "Welcome 3" },
-        { "lang": "id", "text_displayed": "Selamat datang 3" }
+        { "lang": "en", "text_displayed": "Welcome 4" },
+        { "lang": "id", "text_displayed": "Selamat datang 4" }
       ]
     },
     {
       "id": "start_button",
       "text_list": [
-        { "lang": "en", "text_displayed": "Start 3" },
-        { "lang": "id", "text_displayed": "Mulai 3" }
+        { "lang": "en", "text_displayed": "Start 4" },
+        { "lang": "id", "text_displayed": "Mulai 4" }
       ]
     },
     {
       "id": "quit_button",
       "text_list": [
-        { "lang": "en", "text_displayed": "Quit 2" },
-        { "lang": "id", "text_displayed": "Keluar 2" }
+        { "lang": "en", "text_displayed": "Quit 4" },
+        { "lang": "id", "text_displayed": "Keluar 4" }
       ]
     }
   ]
