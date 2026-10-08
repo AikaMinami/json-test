@@ -1,55 +1,172 @@
 {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "texts": [
         {
-            "id": "title_1",
+            "id": "button.main_menu.start",
             "text_list": [
                 {
                     "lang": "en",
-                    "text_displayed": "Welcome 5"
+                    "text_displayed": "Start"
                 },
                 {
                     "lang": "id",
-                    "text_displayed": "Selamat datang 5"
+                    "text_displayed": "Mulai"
                 }
             ]
         },
         {
-            "id": "start_button",
+            "id": "button.main_menu.instruction",
             "text_list": [
                 {
                     "lang": "en",
-                    "text_displayed": "Start 5"
+                    "text_displayed": "Instruction"
                 },
                 {
                     "lang": "id",
-                    "text_displayed": "Mulai 5"
+                    "text_displayed": "Instruksi"
                 }
             ]
         },
         {
-            "id": "quit_button",
+            "id": "button.tutorial.next",
             "text_list": [
                 {
                     "lang": "en",
-                    "text_displayed": "Quit 5"
+                    "text_displayed": "Next"
                 },
                 {
                     "lang": "id",
-                    "text_displayed": "Keluar 5"
+                    "text_displayed": "Selanjutnya"
                 }
             ]
         },
         {
-            "id": "menu.greeting",
+            "id": "button.tutorial.skip",
             "text_list": [
                 {
                     "lang": "en",
-                    "text_displayed": "Hello {name}!"
+                    "text_displayed": "Skip"
                 },
                 {
                     "lang": "id",
-                    "text_displayed": "Halo {name}!"
+                    "text_displayed": "Lewati"
+                }
+            ]
+        },
+        {
+            "id": "description.tutorial.tutorial_desc_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Welcome to the VR Experience Tutorial Press the Right Trigger to select one of the options."
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Selamat datang di tutorial VR. Tekan Trigger Kanan untuk memilih salah satu opsi."
+                }
+            ]
+        },
+        {
+            "id": "description.tutorial.tutorial_title_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Tutorial"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Tutorial"
+                }
+            ]
+        },
+        {
+            "id": "description.tutorial.tutorial_subtitle_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "CONTROLLER FUNCTION"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "FUNGSI CONTROLLER"
+                }
+            ]
+        },
+        {
+            "id": "description.tutorial.tutorial_desc_02",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Here is an overview of the controller functions."
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Berikut adalah gambaran umum mengenai fungsi-fungsi controller."
+                }
+            ]
+        },
+        {
+            "id": "description.tutorial.tutorial_subtitle_02",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "LEFT THUMBSTICK:\nTELEPORT"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "THUMBSTICK KIRI:\nTELEPORTASI"
+                }
+            ]
+        },
+        {
+            "id": "description.tutorial.tutorial_subtitle_03",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "RIGHT TRIGGER: \nSELECT OPTIONS"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "TRIGGER KANAN: \nPILIH OPSI"
+                }
+            ]
+        },
+        {
+            "id": "description.tutorial.tutorial_subtitle_04",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "RIGHT GRIP BUTTON: \nGRAB/DROP OBJECTS"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "TOMBOL GRIP KANAN: \nPEGANG/LEPAS OBJEK"
+                }
+            ]
+        },
+        {
+            "id": "description.tutorial.tutorial_subtitle_05",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Click Button"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Pencet Tombol"
+                }
+            ]
+        },
+        {
+            "id": "description.tutorial.tutorial_subtitle_06",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Point the laser to the button and press the Right Trigger to select the button."
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Arahkan laser ke tombol dan tekan Trigger Kanan untuk memilih tombol tersebut."
                 }
             ]
         }
