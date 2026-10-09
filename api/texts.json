@@ -1,6 +1,20 @@
 {
-    "version": "0.0.7",
+    "version": "0.0.8",
     "texts": [
+ 	{
+            "id": "button.general.test8",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Version 8"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Versi 8"
+                }
+            ]
+        },
+
         {
             "id": "button.general.start",
             "text_list": [
