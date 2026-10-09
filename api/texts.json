@@ -1,8 +1,8 @@
 {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "texts": [
         {
-            "id": "button.main_menu.start",
+            "id": "button.general.start",
             "text_list": [
                 {
                     "lang": "en",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "id": "button.tutorial.next",
+            "id": "button.general.next",
             "text_list": [
                 {
                     "lang": "en",
@@ -41,7 +41,7 @@
             ]
         },
         {
-            "id": "button.tutorial.skip",
+            "id": "button.general.skip",
             "text_list": [
                 {
                     "lang": "en",
@@ -54,7 +54,85 @@
             ]
         },
         {
-            "id": "description.tutorial.tutorial_desc_01",
+            "id": "button.choose_character.male",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Male"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Pria"
+                }
+            ]
+        },
+        {
+            "id": "button.choose_character.female",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Female"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Wanita"
+                }
+            ]
+        },
+        {
+            "id": "button.general.back",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Back"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Kembali"
+                }
+            ]
+        },
+        {
+            "id": "button.locker_room_result.start_duty",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Start Duty"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Mulai Tugas"
+                }
+            ]
+        },
+        {
+            "id": "button.general.retry",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Retry"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Ulangi"
+                }
+            ]
+        },
+        {
+            "id": "button.general.proceed",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Proceed"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Lanjutkan"
+                }
+            ]
+        },
+        {
+            "id": "description.tutorial.desc_01",
             "text_list": [
                 {
                     "lang": "en",
@@ -67,7 +145,7 @@
             ]
         },
         {
-            "id": "description.tutorial.tutorial_title_01",
+            "id": "description.tutorial.title_01",
             "text_list": [
                 {
                     "lang": "en",
@@ -80,7 +158,7 @@
             ]
         },
         {
-            "id": "description.tutorial.tutorial_subtitle_01",
+            "id": "description.tutorial.subtitle_01",
             "text_list": [
                 {
                     "lang": "en",
@@ -93,7 +171,7 @@
             ]
         },
         {
-            "id": "description.tutorial.tutorial_desc_02",
+            "id": "description.tutorial.desc_02",
             "text_list": [
                 {
                     "lang": "en",
@@ -106,7 +184,7 @@
             ]
         },
         {
-            "id": "description.tutorial.tutorial_subtitle_02",
+            "id": "description.tutorial.subtitle_02",
             "text_list": [
                 {
                     "lang": "en",
@@ -119,7 +197,7 @@
             ]
         },
         {
-            "id": "description.tutorial.tutorial_subtitle_03",
+            "id": "description.tutorial.subtitle_03",
             "text_list": [
                 {
                     "lang": "en",
@@ -132,7 +210,7 @@
             ]
         },
         {
-            "id": "description.tutorial.tutorial_subtitle_04",
+            "id": "description.tutorial.subtitle_04",
             "text_list": [
                 {
                     "lang": "en",
@@ -145,7 +223,7 @@
             ]
         },
         {
-            "id": "description.tutorial.tutorial_subtitle_05",
+            "id": "description.tutorial.subtitle_05",
             "text_list": [
                 {
                     "lang": "en",
@@ -158,7 +236,7 @@
             ]
         },
         {
-            "id": "description.tutorial.tutorial_subtitle_06",
+            "id": "description.tutorial.desc_03",
             "text_list": [
                 {
                     "lang": "en",
@@ -167,6 +245,344 @@
                 {
                     "lang": "id",
                     "text_displayed": "Arahkan laser ke tombol dan tekan Trigger Kanan untuk memilih tombol tersebut."
+                }
+            ]
+        },
+        {
+            "id": "description.choose_character.title_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "CHOOSE A CHARACTER"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "PILIH KARAKTER"
+                }
+            ]
+        },
+        {
+            "id": "description.input_name.title_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Input your name"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Masukkan nama Anda"
+                }
+            ]
+        },
+        {
+            "id": "description.input_name.placeholder_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Write your name here"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Tulis nama anda di sini"
+                }
+            ]
+        },
+        {
+            "id": "description.input_name.desc_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Name can't be empty and must be at least 3 characters long."
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Nama tidak boleh kosong dan harus terdiri dari minimal 3 karakter."
+                }
+            ]
+        },
+        {
+            "id": "description.simulation_selection.title_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "SIMULATIONS"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "SIMULASI"
+                }
+            ]
+        },
+        {
+            "id": "description.scenario_selection.subtitle_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Select training scenario"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Pilih skenario pelatihan"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.introduction.title_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Introduction"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Pengenalan"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.introduction.desc_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "As a campus security officer, you are responsible for protecting students and staff, maintaining order, and identifying potential risks throughout the campus"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Sebagai petugas keamanan kampus, Anda bertanggung jawab untuk melindungi mahasiswa dan staf, menjaga ketertiban, serta mengidentifikasi potensi risiko di seluruh area kampus."
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.introduction.greeting",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Welcome, {name}!"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Selamat datang, {name}!"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.introduction.desc_02",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "You are a campus security officer stationed at an integrated university campus and assigned to patrol the campus and its outer perimeter to identify security anomalies and conduct security risk assessments."
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Anda adalah petugas keamanan kampus yang ditempatkan di kampus universitas terpadu dan ditugaskan untuk berpatroli di area kampus serta perimeter luarnya guna mengidentifikasi anomali keamanan dan melakukan penilaian risiko keamanan."
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.timer.title_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Now Loading"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Sedang Memuat"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.timer.subtitle_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "GAME STARTING IN"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Permainan dimulai dalam"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.awareness_test.title_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "AWARENESS TEST"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Tes Kesadaran"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.awareness_test.desc_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "You will be shown a picture of <color=#00E1FF>15 items</color> on the floor of the security officer’s locker room. Observe carefully. You have <color=#00E1FF>1 minute</color> to memorise them before they disappear."
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Anda akan diperlihatkan gambar berisi <color=#00E1FF>15 benda</color> di lantai ruang loker petugas keamanan. Perhatikanlah dengan saksama. Anda memiliki waktu <color=#00E1FF>1 menit</color> untuk menghafalnya sebelum benda-benda tersebut menghilang."
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.awareness_test_result.title_01_okay",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "KEEP GOING!"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "LANJUTKAN!"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.awareness_test_result.title_01_excellent",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "EXCELLENT WORK!"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "KERJA BAGUS!"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.awareness_test_result.desc_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Score"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Skor"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.awareness_test_result.desc_02",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Score must be at least 15/20 to continue"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Skor harus minimal 15/20 untuk melanjutkan."
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.locker_room_result.title_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Preparation Complete!"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Persiapan Selesai!"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.locker_room_result.desc_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "You’re fully equipped and ready to start your duty."
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Anda sudah diperlengkapi sepenuhnya dan siap untuk memulai tugas Anda."
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.patrolling_result.title_01_excellent",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Excellent Work!"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Kerja Bagus!"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.patrolling_result.title_01_fail",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Objective Not Achieved"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Tujuan Tidak Tercapai"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.patrolling_result.desc_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Your Score"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Skor Anda"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.patrolling_result.desc_02",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Total Score"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Total Skor"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.end_session.title_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "End Session"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Akhiri Sesi"
+                }
+            ]
+        },
+        {
+            "id": "scenario2_2.end_session.desc_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "End session and \nback to main menu?"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Akhiri sesi dan \nkembali ke menu utama?"
                 }
             ]
         }
