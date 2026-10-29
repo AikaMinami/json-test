@@ -1,20 +1,6 @@
 {
-    "version": "0.0.8",
+    "version": "0.0.9",
     "texts": [
- 	{
-            "id": "button.general.test8",
-            "text_list": [
-                {
-                    "lang": "en",
-                    "text_displayed": "Version 8"
-                },
-                {
-                    "lang": "id",
-                    "text_displayed": "Versi 8"
-                }
-            ]
-        },
-
         {
             "id": "button.general.start",
             "text_list": [
@@ -25,19 +11,6 @@
                 {
                     "lang": "id",
                     "text_displayed": "Mulai"
-                }
-            ]
-        },
-        {
-            "id": "button.main_menu.instruction",
-            "text_list": [
-                {
-                    "lang": "en",
-                    "text_displayed": "Instruction"
-                },
-                {
-                    "lang": "id",
-                    "text_displayed": "Instruksi"
                 }
             ]
         },
@@ -68,32 +41,6 @@
             ]
         },
         {
-            "id": "button.choose_character.male",
-            "text_list": [
-                {
-                    "lang": "en",
-                    "text_displayed": "Male"
-                },
-                {
-                    "lang": "id",
-                    "text_displayed": "Pria"
-                }
-            ]
-        },
-        {
-            "id": "button.choose_character.female",
-            "text_list": [
-                {
-                    "lang": "en",
-                    "text_displayed": "Female"
-                },
-                {
-                    "lang": "id",
-                    "text_displayed": "Wanita"
-                }
-            ]
-        },
-        {
             "id": "button.general.back",
             "text_list": [
                 {
@@ -103,19 +50,6 @@
                 {
                     "lang": "id",
                     "text_displayed": "Kembali"
-                }
-            ]
-        },
-        {
-            "id": "button.locker_room_result.start_duty",
-            "text_list": [
-                {
-                    "lang": "en",
-                    "text_displayed": "Start Duty"
-                },
-                {
-                    "lang": "id",
-                    "text_displayed": "Mulai Tugas"
                 }
             ]
         },
@@ -146,7 +80,7 @@
             ]
         },
         {
-            "id": "description.tutorial.desc_01",
+            "id": "main_menu.tutorial.desc_01",
             "text_list": [
                 {
                     "lang": "en",
@@ -159,7 +93,7 @@
             ]
         },
         {
-            "id": "description.tutorial.title_01",
+            "id": "main_menu.tutorial.title_01",
             "text_list": [
                 {
                     "lang": "en",
@@ -172,7 +106,7 @@
             ]
         },
         {
-            "id": "description.tutorial.subtitle_01",
+            "id": "main_menu.tutorial.subtitle_01",
             "text_list": [
                 {
                     "lang": "en",
@@ -185,7 +119,7 @@
             ]
         },
         {
-            "id": "description.tutorial.desc_02",
+            "id": "main_menu.tutorial.desc_02",
             "text_list": [
                 {
                     "lang": "en",
@@ -198,7 +132,7 @@
             ]
         },
         {
-            "id": "description.tutorial.subtitle_02",
+            "id": "main_menu.tutorial.subtitle_02",
             "text_list": [
                 {
                     "lang": "en",
@@ -211,7 +145,7 @@
             ]
         },
         {
-            "id": "description.tutorial.subtitle_03",
+            "id": "main_menu.tutorial.subtitle_03",
             "text_list": [
                 {
                     "lang": "en",
@@ -224,7 +158,7 @@
             ]
         },
         {
-            "id": "description.tutorial.subtitle_04",
+            "id": "main_menu.tutorial.subtitle_04",
             "text_list": [
                 {
                     "lang": "en",
@@ -237,7 +171,7 @@
             ]
         },
         {
-            "id": "description.tutorial.subtitle_05",
+            "id": "main_menu.tutorial.subtitle_05",
             "text_list": [
                 {
                     "lang": "en",
@@ -250,7 +184,7 @@
             ]
         },
         {
-            "id": "description.tutorial.desc_03",
+            "id": "main_menu.tutorial.desc_03",
             "text_list": [
                 {
                     "lang": "en",
@@ -263,7 +197,7 @@
             ]
         },
         {
-            "id": "description.choose_character.title_01",
+            "id": "main_menu.choose_character.title_01",
             "text_list": [
                 {
                     "lang": "en",
@@ -276,7 +210,7 @@
             ]
         },
         {
-            "id": "description.input_name.title_01",
+            "id": "main_menu.input_name.title_01",
             "text_list": [
                 {
                     "lang": "en",
@@ -289,7 +223,7 @@
             ]
         },
         {
-            "id": "description.input_name.placeholder_01",
+            "id": "main_menu.input_name.placeholder_01",
             "text_list": [
                 {
                     "lang": "en",
@@ -302,7 +236,7 @@
             ]
         },
         {
-            "id": "description.input_name.desc_01",
+            "id": "main_menu.input_name.desc_01",
             "text_list": [
                 {
                     "lang": "en",
@@ -315,7 +249,7 @@
             ]
         },
         {
-            "id": "description.simulation_selection.title_01",
+            "id": "main_menu.simulation_selection.title_01",
             "text_list": [
                 {
                     "lang": "en",
@@ -328,7 +262,7 @@
             ]
         },
         {
-            "id": "description.scenario_selection.subtitle_01",
+            "id": "main_menu.scenario_selection.subtitle_01",
             "text_list": [
                 {
                     "lang": "en",
@@ -337,6 +271,58 @@
                 {
                     "lang": "id",
                     "text_displayed": "Pilih skenario pelatihan"
+                }
+            ]
+        },
+        {
+            "id": "main_menu.main_menu.button_01",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Instruction"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Instruksi"
+                }
+            ]
+        },
+        {
+            "id": "main_menu.choose_character.button_02",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Male"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Pria"
+                }
+            ]
+        },
+        {
+            "id": "main_menu.choose_character.button_03",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Female"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Wanita"
+                }
+            ]
+        },
+        {
+            "id": "main_menu.locker_room_result.button_04",
+            "text_list": [
+                {
+                    "lang": "en",
+                    "text_displayed": "Start Duty"
+                },
+                {
+                    "lang": "id",
+                    "text_displayed": "Mulai Tugas"
                 }
             ]
         },
